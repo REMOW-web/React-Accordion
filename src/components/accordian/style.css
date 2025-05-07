@@ -13,7 +13,7 @@ h1 {
 
 .accordian {
   width: 500px;
-
+  
 }
 
 .item {
@@ -34,4 +34,30 @@ h1 {
 .content {
   color: #fff;
   height: auto;
+}
+
+
+.acc-content{
+  
+  /* animation: slidedown 0.3s ease forwards; */
+}
+
+
+@keyframes slidedown {
+  from {
+    /* opacity: 0; */
+    /* transform: translateY(-100%); */
+    /* scale: 0.8; */
+    /* height: 0%; */
+    /* width: 90%; */
+    /* height: 0; */
+  }
+  to{
+    /* opacity: 1; */
+    /* height: 100%; */
+    /* transform: translateY(0); */
+    /* scale: 1; */
+    /* width: 100%; */
+    /* height: 100%; */
+  }
 }
